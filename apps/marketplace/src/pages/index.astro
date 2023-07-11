@@ -1,0 +1,24 @@
+---
+import Counter from 'src/common/components/counter/counter'
+import CurrentUser from 'src/common/components/current-user.astro'
+import Layout from 'src/layouts/layout.astro'
+
+export const prerender = false
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<h1>Welcome to Astro</h1>
+		<CurrentUser />
+		<a href="/about">About</a>
+		<Counter count={10} client:visible />
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1.5rem;
+		max-width: 60ch;
+	}
+</style>
