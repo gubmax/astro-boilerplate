@@ -8,9 +8,9 @@
 		"build": "astro check && astro build",
 		"preview": "astro preview",
 		"lint": "pnpm run /^lint./",
-		"lint.es": "eslint src/**/*.{ts*,astro}",
+		"lint.es": "eslint **/*.{ts*,astro}",
 		"lint.types": "tsc --noEmit",
-		"lint.styles": "stylelint src/**/*.css"
+		"lint.styles": "stylelint **/*.css"
 	},
 	"dependencies": {
 		"astro": "2.8.1",

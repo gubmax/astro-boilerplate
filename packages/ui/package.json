@@ -11,9 +11,9 @@
 		"sb": "sb dev -p 6006",
 		"sb.build": "sb build",
 		"lint": "pnpm run /^lint./",
-		"lint.es": "eslint src/**/*.ts*",
+		"lint.es": "eslint **/*.ts*",
 		"lint.types": "tsc --noEmit",
-		"lint.styles": "stylelint src/**/*.css"
+		"lint.styles": "stylelint **/*.css"
 	},
 	"dependencies": {
 		"react": "18.2.0",
