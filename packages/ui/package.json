@@ -4,10 +4,14 @@
 	"type": "module",
 	"exports": {
 		"./*": "./src/*",
+		"./stylelint.config.mjs": "./stylelint.config.mjs",
 		"./uno.config.ts": "./uno.config.ts"
 	},
 	"scripts": {
-		"lint": "eslint \"**/*.ts*\""
+		"lint": "pnpm run /^lint./",
+		"lint.es": "eslint src/**/*.ts*",
+		"lint.types": "tsc --noEmit",
+		"lint.styles": "stylelint src/**/*.css"
 	},
 	"dependencies": {
 		"react": "18.2.0",
@@ -20,6 +24,9 @@
 		"@unocss/reset": "0.53.5",
 		"eslint": "8.44.0",
 		"eslint-config-custom": "workspace:*",
+		"stylelint": "15.10.1",
+		"stylelint-config-idiomatic-order": "9.0.0",
+		"stylelint-config-standard": "34.0.0",
 		"tsconfig": "workspace:*",
 		"typescript": "5.1.6",
 		"unocss": "0.53.5"

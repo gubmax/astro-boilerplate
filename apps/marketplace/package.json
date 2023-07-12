@@ -5,9 +5,12 @@
 	"scripts": {
 		"start": "node dist/server/entry.mjs",
 		"dev": "FORCE_COLOR=1 astro dev",
-		"build": "astro check && tsc --noEmit && astro build",
+		"build": "astro check && astro build",
 		"preview": "astro preview",
-		"lint": "eslint \"**/*.{ts*,astro}\""
+		"lint": "pnpm run /^lint./",
+		"lint.es": "eslint src/**/*.{ts*,astro}",
+		"lint.types": "tsc --noEmit",
+		"lint.styles": "stylelint src/**/*.css"
 	},
 	"dependencies": {
 		"astro": "2.8.1",
@@ -23,6 +26,7 @@
 		"@types/react-dom": "18.2.6",
 		"eslint-config-custom": "workspace:*",
 		"eslint-plugin-astro": "0.27.2",
+		"stylelint": "15.10.1",
 		"tsconfig": "workspace:*",
 		"typescript": "5.1.6",
 		"unocss": "0.53.5"

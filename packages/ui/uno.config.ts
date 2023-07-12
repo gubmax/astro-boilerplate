@@ -33,9 +33,21 @@ export default defineConfig({
 			'body-sm': ['12px', '16px'],
 		},
 		colors: {
+			// System
 			inherit: 'inherit',
 			current: 'currentColor',
 			transparent: 'transparent',
+			// Palette
+			primary: 'var(--color-primary)',
+			secondary: 'var(--color-secondary)',
+			tertiary: 'var(--color-tertiary)',
+			accent: 'var(--color-accent)',
+			surface: 'var(--color-surface)',
+			container: 'var(--color-container)',
+			outline: 'var(--color-outline)',
+			on: {
+				accent: 'var(--color-on-accent)',
+			},
 		},
 	}),
 })
