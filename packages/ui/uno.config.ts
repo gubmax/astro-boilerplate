@@ -3,16 +3,6 @@ import { defineConfig } from 'unocss'
 
 export default defineConfig({
 	presets: [presetMini({ variablePrefix: 'ui-' })],
-	rules: [
-		[
-			'link',
-			{
-				color: 'var(--color-accent)',
-				'text-decoration': 'underline dotted',
-				'border-radius': '6px',
-			},
-		],
-	],
 	extendTheme: (theme): Theme => ({
 		...theme,
 		fontSize: {

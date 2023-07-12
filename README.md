@@ -1,6 +1,6 @@
 # Marketplace
 
-This monorepository is a fullstack application containing a modern React web app, server-side rendering, tooling, and APIs.
+This monorepository is a fullstack application containing a modern [React](https://react.dev/) web app, server-side rendering, tooling, and APIs.
 
 The package manager used to install and link dependencies must be [pnpm](https://pnpm.io).
 
@@ -10,9 +10,9 @@ This repo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
+- `marketplace`: a [Astro](https://astro.build/) MPA
+- `cms`: a [Vite](https://vitejs.dev/) SPA
+- `ui`: a stub React component library shared by both `marketplace` and `cms` applications
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
