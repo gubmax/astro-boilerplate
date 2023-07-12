@@ -6,10 +6,15 @@
 			"dependsOn": ["^build"],
 			"outputs": ["dist/**", "!.astro/**"]
 		},
-		"lint": {},
 		"dev": {
 			"cache": false,
 			"persistent": true
+		},
+		"lint": {},
+		"sb": { "cache": false },
+		"sb.build": {
+			"dependsOn": ["^sb.build"],
+			"outputs": ["storybook-static/**"]
 		}
 	}
 }

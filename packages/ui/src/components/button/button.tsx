@@ -2,12 +2,12 @@ import { type ReactNode } from 'react'
 
 import './button.css'
 
-interface Props {
+export interface ButtonProps {
 	children: ReactNode
 	onClick: () => void
 }
 
-function Button({ children, onClick }: Props) {
+function Button({ children, onClick }: ButtonProps) {
 	return (
 		<button className="ui-button" onClick={onClick}>
 			{children}

@@ -6,6 +6,8 @@
 		"build": "turbo run build",
 		"dev": "turbo run dev",
 		"lint": "turbo run lint",
+		"sb": "FORCE_COLOR=1 turbo run sb",
+		"sb.build": "turbo run sb.build",
 		"format": "prettier --write **/*.{js,ts,tsx,md,json}",
 		"prepare": "husky install"
 	},
