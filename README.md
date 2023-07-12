@@ -62,12 +62,7 @@ npx npm-check-updates --deep --upgrade
 		"source.fixAll.stylelint": true
 	},
 	"eslint.workingDirectories": ["apps", "packages"],
-	"eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "astro",
-    "typescript",
-    "typescriptreact"
-  ],
+	"eslint.validate": ["javascript", "javascriptreact", "astro", "typescript", "typescriptreact"],
+	"unocss.root": ["packages/ui", "apps/marketplace"]
 }
 ```

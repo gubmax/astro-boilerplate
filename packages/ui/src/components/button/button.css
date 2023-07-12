@@ -1,0 +1,10 @@
+.ui-button {
+	background: var(--color-accent);
+	border-radius: 6px;
+	border: none;
+	color: var(--color-on-accent);
+	cursor: pointer;
+	height: 40px;
+	min-width: 120px;
+	padding: 0;
+}

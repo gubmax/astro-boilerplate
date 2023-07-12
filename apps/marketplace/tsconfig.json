@@ -5,6 +5,6 @@
 		"baseUrl": ".",
 		"moduleResolution": "Bundler",
 		"paths": { "~/assets/*": ["src/assets/*"] },
-		"plugins": [{ "name": "@astrojs/ts-plugin" }],
+		"plugins": [{ "name": "@astrojs/ts-plugin" }]
 	}
 }

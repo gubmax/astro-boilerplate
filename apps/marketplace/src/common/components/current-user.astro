@@ -11,4 +11,4 @@ const data = (await response.json()) as { results: User[] }
 const randomUser = data.results[0]
 ---
 
-<p>User - {randomUser.name.first} {randomUser.name.last}</p>
+<p class="text-headline-sm">User - {randomUser.name.first} {randomUser.name.last}</p>

@@ -1,11 +1,7 @@
 module.exports = {
 	root: true,
 	env: { browser: true },
-	extends: [
-		'./index.js',
-		'plugin:react/recommended',
-		"plugin:react-hooks/recommended"
-	],
+	extends: ['./index.js', 'plugin:react/recommended', 'plugin:react-hooks/recommended'],
 	parserOptions: {
 		ecmaFeatures: { jsx: true },
 	},

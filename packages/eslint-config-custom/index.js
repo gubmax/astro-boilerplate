@@ -24,9 +24,9 @@ module.exports = {
 			'error',
 			{
 				groups: [
-          ['^node:', `^(${require('module').builtinModules.join('|')})(/|$)`],
-          ['^react', '^@?\\w'],
-          ['^(client|server|shared|plugins)(/.*|$)', '^\\.', '^.+\\.css$'],
+					['^node:', `^(${require('module').builtinModules.join('|')})(/|$)`],
+					['^react', '^@?\\w'],
+					['^(client|server|shared|plugins)(/.*|$)', '^\\.', '^.+\\.css$'],
 				],
 			},
 		],

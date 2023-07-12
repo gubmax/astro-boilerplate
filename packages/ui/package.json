@@ -3,7 +3,8 @@
 	"version": "0.0.0",
 	"type": "module",
 	"exports": {
-		"./*": "./src/*"
+		"./*": "./src/*",
+		"./uno.config.ts": "./uno.config.ts"
 	},
 	"scripts": {
 		"lint": "eslint \"**/*.ts*\""
@@ -15,9 +16,12 @@
 	"devDependencies": {
 		"@types/react": "18.2.14",
 		"@types/react-dom": "18.2.6",
+		"@unocss/preset-mini": "0.53.5",
+		"@unocss/reset": "0.53.5",
 		"eslint": "8.44.0",
 		"eslint-config-custom": "workspace:*",
 		"tsconfig": "workspace:*",
-		"typescript": "5.1.6"
+		"typescript": "5.1.6",
+		"unocss": "0.53.5"
 	}
 }
