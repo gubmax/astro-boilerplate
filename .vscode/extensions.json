@@ -3,9 +3,12 @@
 		"antfu.unocss",
 		"astro-build.astro-vscode",
 		"dbaeumer.vscode-eslint",
+		"docsmsft.docs-yaml",
+		"dotenv.dotenv-vscode",
 		"eamodio.gitlens",
 		"editorconfig.editorconfig",
 		"esbenp.prettier-vscode",
+		"prisma.prisma",
 		"stylelint.vscode-stylelint"
 	]
 }

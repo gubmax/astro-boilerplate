@@ -11,6 +11,8 @@
 			"persistent": true
 		},
 		"lint": {},
+		"format": { "cache": false },
+		"codegen": { "cache": false },
 		"sb": { "cache": false },
 		"sb.build": {
 			"dependsOn": ["^sb.build"],

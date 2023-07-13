@@ -6,7 +6,6 @@ module.exports = defineConfig({
 	extends: ['custom/web', 'plugin:astro/recommended'],
 	parserOptions: {
 		project: './tsconfig.json',
-		sourceType: 'module',
 		tsconfigRootDir: __dirname,
 	},
 	overrides: [

@@ -2,13 +2,18 @@
 	"name": "acme-marketplace",
 	"private": true,
 	"packageManager": "pnpm@8.6.0",
+	"engines": {
+		"node": ">=18.0.0",
+		"pnpm": ">=8.6.0"
+	},
 	"scripts": {
 		"build": "turbo run build",
 		"dev": "turbo run dev",
+		"codegen": "turbo run codegen",
 		"lint": "turbo run lint",
 		"sb": "FORCE_COLOR=1 turbo run sb",
 		"sb.build": "turbo run sb.build",
-		"format": "prettier --write **/*.{*js,ts*,md,json}",
+		"format": "prettier --write **/*.{*js,ts*,md,json} && turbo run format",
 		"prepare": "husky install"
 	},
 	"devDependencies": {
