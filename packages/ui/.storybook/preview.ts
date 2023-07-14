@@ -18,6 +18,11 @@ const preview: Preview = {
 		},
 		docs: { theme: dark },
 		layout: 'centered',
+		options: {
+			storySort: {
+				order: ['overview', 'components'],
+			},
+		},
 	},
 }
 

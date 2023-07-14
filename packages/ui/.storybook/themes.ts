@@ -11,7 +11,7 @@ export const light = create({
 
 	// UI
 	appBg: '#fff',
-	appContentBg: '#f9f9f9',
+	appContentBg: '#fff',
 	appBorderColor: '#f0f0f0',
 	appBorderRadius: 3,
 
@@ -27,7 +27,7 @@ export const light = create({
 	// Toolbar default and active colors
 	barTextColor: '#161618',
 	barSelectedColor: '#647dee',
-	barBg: '#f9f9f9',
+	barBg: '#fff',
 
 	// Form colors
 	inputBg: '#f9f9f9',
@@ -47,7 +47,7 @@ export const dark = create({
 	colorSecondary: '#646cff',
 
 	// UI
-	appBg: '#17181c',
+	appBg: '#1e1f23',
 	appContentBg: '#1e1f23',
 	appBorderColor: '#2d2e33',
 	appBorderRadius: 3,
@@ -67,7 +67,7 @@ export const dark = create({
 	barBg: '#1e1f23',
 
 	// Form colors
-	inputBg: '#1e1f23',
+	inputBg: '#17181c',
 	inputBorder: '#2d2e33',
 	inputTextColor: '#9999a0',
 	inputBorderRadius: 6,
