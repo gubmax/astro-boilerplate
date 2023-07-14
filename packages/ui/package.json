@@ -28,7 +28,7 @@
 		"@storybook/react": "7.0.27",
 		"@storybook/react-vite": "7.0.27",
 		"@storybook/theming": "7.0.27",
-		"@types/react": "18.2.14",
+		"@types/react": "18.2.15",
 		"@types/react-dom": "18.2.7",
 		"@unocss/preset-mini": "0.53.5",
 		"@unocss/reset": "0.53.5",
@@ -42,7 +42,7 @@
 		"tsconfig": "workspace:*",
 		"typescript": "5.1.6",
 		"unocss": "0.53.5",
-		"vite": "4.4.3",
+		"vite": "4.4.4",
 		"vite-tsconfig-paths": "4.2.0"
 	}
 }
