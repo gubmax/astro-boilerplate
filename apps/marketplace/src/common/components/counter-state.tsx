@@ -5,7 +5,7 @@ import { counterStore } from './counter/counter.store'
 
 function CounterState() {
 	const counter = useStore(counterStore)
-	return <div>Counter state: {counter}</div>
+	return <div className="p-3 text-center">Counter state: {counter}</div>
 }
 
 export default memo(CounterState)

@@ -1,18 +1,13 @@
 ---
 import Counter from 'src/common/components/counter/counter'
 import CounterState from 'src/common/components/counter-state'
-import CurrentUser from 'src/common/components/current-user.astro'
-import BaseLayout from 'src/layouts/base.astro'
+import BaseLayout from 'src/layouts/base/base.astro'
 import Document from 'src/layouts/document.astro'
-
-export const prerender = false
 ---
 
-<Document title="Welcome">
+<Document title="Acme">
 	<BaseLayout>
-		<h1 class="text-display-md">Welcome to Astro</h1>
-		<CurrentUser />
-		<a class="link" href="/about">About</a>
+		<h1 class="text-display-md">Home</h1>
 		<Counter client:load />
 		<CounterState client:load />
 	</BaseLayout>
