@@ -32,7 +32,7 @@
 		"@types/react-dom": "18.2.7",
 		"@unocss/preset-mini": "0.53.5",
 		"@unocss/reset": "0.53.5",
-		"eslint": "8.44.0",
+		"eslint": "8.45.0",
 		"eslint-config-custom": "workspace:*",
 		"eslint-define-config": "1.21.0",
 		"storybook-dark-mode": "3.0.0",

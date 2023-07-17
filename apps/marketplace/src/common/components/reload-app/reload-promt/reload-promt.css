@@ -1,0 +1,7 @@
+.m-reload-promt {
+  position: fixed;
+  z-index: 1;
+  padding: 20px;
+	background: var(--color-container);
+	inset: 0;
+}

@@ -1,4 +1,4 @@
-body {
+:root {
 	/* Color palette by system settings */
 
 	--color-primary: #161618;
@@ -20,7 +20,9 @@ body {
 		--color-container: #1e1f23;
 		--color-outline: #2d2e33;
 	}
+}
 
+body {
 	/* Override system settings by classname */
 
 	&.light {

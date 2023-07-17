@@ -8,7 +8,9 @@ import Document from 'src/layouts/document.astro'
 <Document title="Acme">
 	<BaseLayout>
 		<h1 class="text-display-md">Home</h1>
-		<Counter client:load />
-		<CounterState client:load />
+		<div data-turbo="false">
+			<Counter client:idle />
+			<CounterState client:idle />
+		</div>
 	</BaseLayout>
 </Document>

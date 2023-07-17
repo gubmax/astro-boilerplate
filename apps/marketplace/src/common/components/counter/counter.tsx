@@ -13,7 +13,7 @@ function Counter({ className, style }: StyledProps) {
 	return (
 		<div className={cn('m-counter', className)} style={style}>
 			<Button onClick={decreaseCounter}>-</Button>
-			<pre className="mx-8">{counter}</pre>
+			<span className="mx-8">{counter}</span>
 			<Button onClick={increaseCounter}>+</Button>
 		</div>
 	)
