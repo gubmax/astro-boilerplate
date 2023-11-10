@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { cn } from '../helpers/class-names'
+import { cn } from '../helpers/class-names.js'
 
 const meta: Meta = {
 	title: 'overview/Palette',

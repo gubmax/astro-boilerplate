@@ -1,7 +1,7 @@
 import { registerSW } from 'virtual:pwa-register'
 
-import { showReloadPromt } from './reload-promt/reload-promt'
-import { showSplashScreen } from './reload-splash-screen/reload-splash-screen'
+import { showReloadPromt } from './reload-promt/reload-promt.js'
+import { showSplashScreen } from './reload-splash-screen/reload-splash-screen.js'
 
 // const SW_UPDATE_INTERVAL = import.meta.env.VITE_SW_UPDATE_INTERVAL
 const SW_UPDATE_INTERVAL = 2000

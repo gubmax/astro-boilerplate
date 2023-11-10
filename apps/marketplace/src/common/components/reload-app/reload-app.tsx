@@ -1,9 +1,9 @@
 import { memo, type PropsWithChildren } from 'react'
 
-import ReloadPromt from './reload-promt/reload-promt'
-import ReloadSplashScreen from './reload-splash-screen/reload-splash-screen'
+import ReloadPromt from './reload-promt/reload-promt.js'
+import ReloadSplashScreen from './reload-splash-screen/reload-splash-screen.js'
 
-import './pwa'
+import './pwa.js'
 
 function ReloadApp({ children }: PropsWithChildren) {
 	return (

@@ -3,7 +3,7 @@ import { useStore } from '@nanostores/react'
 import { atom } from 'nanostores'
 import Button from 'ui/components/button/button.js'
 
-import { refreshSW } from '../pwa'
+import { refreshSW } from '../pwa.js'
 import './reload-promt.css'
 
 export const showReloadPromt = atom(false)

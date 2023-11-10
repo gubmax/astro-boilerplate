@@ -1,7 +1,7 @@
 import { memo } from 'react'
 import { useStore } from '@nanostores/react'
 
-import { counterStore } from './counter/counter.store'
+import { counterStore } from './counter/counter.store.js'
 
 function CounterState() {
 	const counter = useStore(counterStore)

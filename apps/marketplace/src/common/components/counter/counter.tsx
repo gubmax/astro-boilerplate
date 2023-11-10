@@ -4,7 +4,7 @@ import Button from 'ui/components/button/button.js'
 import { cn } from 'ui/helpers/class-names.js'
 import { type StyledProps } from 'ui/typings/styled-props.js'
 
-import { counterStore, decreaseCounter, increaseCounter } from './counter.store'
+import { counterStore, decreaseCounter, increaseCounter } from './counter.store.js'
 import './counter.css'
 
 function Counter({ className, style }: StyledProps) {
