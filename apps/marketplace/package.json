@@ -13,7 +13,6 @@
 		"lint.styles": "stylelint **/*.css"
 	},
 	"dependencies": {
-		"@hotwired/turbo": "7.3.0",
 		"@nanostores/react": "0.7.1",
 		"astro": "3.5.1",
 		"nanostores": "0.9.5",

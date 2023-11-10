@@ -9,16 +9,19 @@ export default defineConfig({
 	output: 'hybrid',
 	adapter: nodejs({ mode: 'standalone' }),
 	compressHTML: true,
+	scopedStyleStrategy: 'attribute',
+	prefetch: { defaultStrategy: 'hover' },
 	build: { inlineStylesheets: 'auto' },
 	vite: {
 		build: {
-			assetsInlineLimit: true,
+			assetsInlineLimit: 4096,
 			cssCodeSplit: false,
 			rollupOptions: { output: { esModule: false } },
 		},
 	},
 	integrations: [
 		react(),
+		// @ts-expect-error Wrong export for NodeNext modules
 		unoCSS(),
 		astroPWA({
 			base: '/',

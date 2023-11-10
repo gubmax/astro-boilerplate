@@ -29,9 +29,6 @@ importers:
 
   apps/marketplace:
     dependencies:
-      '@hotwired/turbo':
-        specifier: 7.3.0
-        version: 7.3.0
       '@nanostores/react':
         specifier: 0.7.1
         version: 0.7.1(nanostores@0.9.5)(react@18.2.0)
@@ -151,9 +148,6 @@ importers:
       '@typescript-eslint/parser':
         specifier: 6.10.0
         version: 6.10.0(eslint@8.53.0)(typescript@5.2.2)
-      eslint-config-turbo:
-        specifier: 1.10.16
-        version: 1.10.16(eslint@8.53.0)
       eslint-plugin-prettier:
         specifier: 5.0.1
         version: 5.0.1(eslint@8.53.0)(prettier@3.0.3)
@@ -3595,11 +3589,6 @@ packages:
   /@floating-ui/utils@0.1.6:
     resolution: {integrity: sha512-OfX7E2oUDYxtBvsuS4e/jSn4Q9Qb6DzgeYtsAdkPZ47znpoNsMgZw0+tVijiv3uGNR6dgNlty6r9rzIzHjtd/A==}
     dev: true
-
-  /@hotwired/turbo@7.3.0:
-    resolution: {integrity: sha512-Dcu+NaSvHLT7EjrDrkEmH4qET2ZJZ5IcCWmNXxNQTBwlnE5tBZfN6WxZ842n5cHV52DH/AKNirbPBtcEXDLW4g==}
-    engines: {node: '>= 14'}
-    dev: false
 
   /@humanwhocodes/config-array@0.11.13:
     resolution: {integrity: sha512-JSBDMiDKSzQVngfRjOdFXgFfklaXI4K9nLF49Auh21lmBWRLIK3+xTErTWD4KU54pb6coM6ESE7Awz/FNU3zgQ==}
@@ -7830,11 +7819,6 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /dotenv@16.0.3:
-    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
-    engines: {node: '>=12'}
-    dev: false
-
   /dotenv@16.3.1:
     resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}
     engines: {node: '>=12'}
@@ -8213,15 +8197,6 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-turbo@1.10.16(eslint@8.53.0):
-    resolution: {integrity: sha512-O3NQI72bQHV7FvSC6lWj66EGx8drJJjuT1kuInn6nbMLOHdMBhSUX/8uhTAlHRQdlxZk2j9HtgFCIzSc93w42g==}
-    peerDependencies:
-      eslint: '>6.6.0'
-    dependencies:
-      eslint: 8.53.0
-      eslint-plugin-turbo: 1.10.16(eslint@8.53.0)
-    dev: false
-
   /eslint-define-config@1.24.1:
     resolution: {integrity: sha512-o36vBhPSWyIQlHoMqGhhcGmOOm2A2ccBVIdLTG/AWdm9YmjpsLpf+5ntf9LlHR6dduLREgxtGwvwPwSt7vnXJg==}
     engines: {node: '>=18.0.0', npm: '>=9.0.0', pnpm: '>= 8.6.0'}
@@ -8303,15 +8278,6 @@ packages:
     peerDependencies:
       eslint: '>=5.0.0'
     dependencies:
-      eslint: 8.53.0
-    dev: false
-
-  /eslint-plugin-turbo@1.10.16(eslint@8.53.0):
-    resolution: {integrity: sha512-ZjrR88MTN64PNGufSEcM0tf+V1xFYVbeiMeuIqr0aiABGomxFLo4DBkQ7WI4WzkZtWQSIA2sP+yxqSboEfL9MQ==}
-    peerDependencies:
-      eslint: '>6.6.0'
-    dependencies:
-      dotenv: 16.0.3
       eslint: 8.53.0
     dev: false
 

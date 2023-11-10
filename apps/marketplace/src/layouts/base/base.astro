@@ -4,8 +4,8 @@ import Header from './header/header.astro'
 import './base.css'
 ---
 
-<Header />
-<main class="m-main mx-auto px-5 pt-20">
+<Header transition:persist />
+<main class="m-main mx-auto px-5 pt-20" transition:animate="fade">
 	<slot />
 </main>
 <Footer />

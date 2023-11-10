@@ -1,6 +1,6 @@
 module.exports = {
 	parser: '@typescript-eslint/parser',
-	plugins: ['turbo', 'prettier', 'simple-import-sort'],
+	plugins: ['prettier', 'simple-import-sort'],
 	extends: [
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',

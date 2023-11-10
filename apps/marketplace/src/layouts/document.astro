@@ -1,4 +1,5 @@
 ---
+import { ViewTransitions } from 'astro:transitions'
 import RelaodApp from 'src/common/components/reload-app/reload-app.jsx'
 
 import 'ui/styles/index.css'
@@ -13,7 +14,7 @@ const { title, description, lang='en' } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang={lang}>
+<html lang={lang} transition:animate="none">
 	<head>
 		<meta charset="UTF-8" />
 		{description && <meta name="description" content={description} />}
@@ -21,13 +22,12 @@ const { title, description, lang='en' } = Astro.props;
 		<meta name="color-scheme" content="dark light" />
 		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f9f9f9">
 		<meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#17181c">
-		<meta name="turbo-cache-control" content="no-cache">
-		<!-- <meta name="turbo-visit-control" content="reload"> -->
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{title}</title>
+		<ViewTransitions />
 		<script>
-      import '../router.ts'
-    </script>
+			document.addEventListener('astro:page-load', () => console.warn('PAGE_LOAD'));
+		</script>
 	</head>
 	<body>
 		<RelaodApp client:only>
@@ -35,10 +35,3 @@ const { title, description, lang='en' } = Astro.props;
 		</RelaodApp>
 	</body>
 </html>
-
-<style is:global>
-	.turbo-progress-bar {
-		height: 3px;
-		background-color: var(--color-accent);
-	}
-</style>
